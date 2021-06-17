@@ -4,7 +4,7 @@ a= [item * 5 for item in x]
 
 print(a)
   
-x=[3,6,8,2,4,1,5,7]
+x=[3,6,8,2,4,1,8,7]
 
 print(min(x))
 
