@@ -94,7 +94,7 @@ class MobileMoneyAccount(Account):
             return f"Please Enter amount in figures"   
         if  amount<0:
             return f"Please enter valid amount"
-        elif amount>=self.balance: 
+        elif amount>self.balance: 
             return f"You have insufficient amount" 
         else: 
             
